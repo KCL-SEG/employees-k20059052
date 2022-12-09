@@ -6,6 +6,8 @@ from employee import *
 def test_billie():
     assert billie.get_pay() == 4000
     string = 'Billie works on a monthly salary of 4000.  Their total pay is 4000.'
+    print(str(billie))
+    print(string)
     assert str(billie) == string
 
 def test_charlie():
